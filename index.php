@@ -2,8 +2,8 @@
 	ini_set('display_errors', '1');
 	// database connection 
 	$host = "localhost";
-	$db_user_name = "developermanish95@gmail.com";
-	$db_user_password = "Manish@@2020";
+	$db_user_name = "";
+	$db_user_password = "";
 	$db_name = "n_level_dropdown";
 	$conn = mysqli_connect($host,$db_user_name,$db_user_password,$db_name);
 	if(!$conn){
